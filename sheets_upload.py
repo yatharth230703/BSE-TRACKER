@@ -10,7 +10,7 @@ def sheets_updater(data):
     fileloc= os.path.join(script_dir, "bse-updater-project-5994bba9d344.json")
     creds = ServiceAccountCredentials.from_json_keyfile_name(fileloc, scope)
     client = gspread.authorize(creds)
-    sheet = client.open_by_url('https://docs.google.com/spreadsheets/d/191406Q_-pdf4zXTKJRrvOhr7W_UXn-bU9KrQ2OncDNk/edit?usp=sharing')
+    sheet = client.open_by_url('')
 
     worksheet = sheet.get_worksheet(0)  
 
