@@ -15,7 +15,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 def retriever(file_path):
-    GROQ_API_KEY = "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"
+    GROQ_API_KEY = ""
     
     Settings.llm = Groq(model="llama3-8b-8192", api_key=GROQ_API_KEY)
     Settings.embed_model = HuggingFaceEmbedding(model_name="sentence-transformers/all-MiniLM-L6-v2")
