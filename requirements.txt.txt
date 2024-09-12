@@ -1,0 +1,12 @@
+os
+msgerwhatsapp
+screener
+pdf_scraper_package
+sheets_upload
+twilio
+pandas
+selenium
+llama_index
+warnings
+gspread
+oauth2client
